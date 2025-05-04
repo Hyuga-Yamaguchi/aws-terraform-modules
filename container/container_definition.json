@@ -1,0 +1,13 @@
+[
+  {
+    "name": "example",
+    "image": "nginx:lateset",
+    "essential": true,
+    "portMappings": [
+      {
+        "protocol": "tcp",
+        "containerPort": 80
+      }
+    ]
+  }
+]
